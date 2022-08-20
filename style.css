@@ -668,6 +668,16 @@ footer ul li a:hover {
     margin: 0 auto;
    }
 
+/* ===== CLIENT SECTION - Media Queries/Tablet */
+
+   .clients__container {
+    gap: 1rem;
+   }
+
+   
+
+
+
 
 
 }
