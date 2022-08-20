@@ -770,6 +770,21 @@ footer ul li a:hover {
         display: none;
     }
 
+    /* ===== ABOUT mobile ===== */
+
+    .about__article {
+        grid-template-columns: 1fr;
+        margin-top: 5rem;
+        text-align: center;
+        gap: 0;
+    }
+
+    .about__article:nth-child(2) .about__image {
+        grid-row: 1;
+    }
+
+
+
 
 
 
