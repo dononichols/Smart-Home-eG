@@ -579,7 +579,7 @@ footer ul li a:hover {
         flex-direction: column;
         gap: 0;
         z-index: 3;
-        display: none;
+        /* display: none; */
     }
 
     .nav__items li {
@@ -708,14 +708,59 @@ footer ul li a:hover {
    }
 
 
+   /* ===== FOOTER SECTION - Media Queries/Tablet */
 
-
-
-
-
-
-
-
-
+   .footer__container {
+    grid-template-columns: 1fr 1fr;
+   }
 }
+/* ========================= MEDIA QUERIES (PHONES) ============= */
+
+   @media screen and (max-width: 600px) {
+    
+    html {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .lead {
+        width: var(--container-width-phone);
+    }
+
+    /* ===== NAVBAR mobile ===== */
+
+    .nav__logo {
+        margin-left: 1rem;
+    }
+
+    .nav__items li a {
+        justify-content: center;
+        padding: 0;
+    }
+
+    nav button {
+        margin-right: 0.7rem;
+    }
+
+
+
+
+
+   }
+
+
+
+
+
 
