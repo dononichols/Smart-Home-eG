@@ -681,6 +681,20 @@ footer ul li a:hover {
     gap: 1rem;
    }
 
+   /* ===== DOWNLOAD APP SECTION - Media Queries/Tablet */
+
+   #downloadApp {
+    text-align: center;
+   }
+
+   #downloadApp .cta {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+   }
+
+
+
 
 
 
