@@ -658,6 +658,16 @@ footer ul li a:hover {
     display: none;
    }
 
+   /* ===== ABOUT SECTION - Media Queries/Tablet */
+
+   #about {
+    margin-top: 7rem;
+   }
+
+   .about__article {
+    margin: 0 auto;
+   }
+
 
 
 }
