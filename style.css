@@ -674,7 +674,14 @@ footer ul li a:hover {
     gap: 1rem;
    }
 
-   
+   /* ===== TESTIMONIALS SECTION - Media Queries/Tablet */
+
+   .testimonials__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+   }
+
+
 
 
 
