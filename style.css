@@ -693,6 +693,22 @@ footer ul li a:hover {
     margin: 0 auto;
    }
 
+   /* ===== SUBSCRIBE SECTION - Media Queries/Tablet */
+
+   .subscribe__container {
+    flex-direction: column;
+    height: auto;
+    gap: 5rem;
+    padding: 3rem;
+    font-size: 1.2rem;
+   }
+
+   .subscribe__container p {
+    width: 94%;
+   }
+
+
+
 
 
 
