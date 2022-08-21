@@ -1,10 +1,10 @@
+
+//===========   NAV MENU :mobile ========
+
 const menuBtn = document.querySelector("#menu-btn");
 const closeBtn = document.querySelector("#close-btn");
 const menu = document.querySelector(".nav__items");
 
-
-
-//===========   NAV MENU :mobile ========
 
 //________ OPEN NAV MENU
 // add an Event Listener on the menuBtn
@@ -21,3 +21,23 @@ closeBtn.addEventListener("click", () => {
     menuBtn.style.display = 'inline-block'; // on click, remove menu button
     closeBtn.style.display = 'none'; // and replace it with the closeBtn
 });
+
+
+//========   FAQ: Show/Hide faq ========
+
+const faqs = document.querySelectorAll('.faq');
+
+// Toggle open/close
+faqs.forEach(faq => {
+    faq.addEventListener('click', () => {
+        faq.classList.toggle('open');
+        //change icon
+        const icon = faq.querySelector('.faq__icon i');
+        if(icon.className === 'uil uil-plus') {
+            icon.className = 'uil uil-minus'
+        } else {
+            icon.className = 'uil uil-plus';
+        }
+    })
+})
+
