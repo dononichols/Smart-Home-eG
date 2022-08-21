@@ -790,6 +790,13 @@ footer ul li a:hover {
         gap: 8px;
     }
 
+     /* ===== TESTIMONIALS mobile ===== */
+
+    .testimonial{
+       padding: 1.4rem; 
+    }
+
+    
 
 
 
